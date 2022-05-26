@@ -8,7 +8,8 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   padding: 30px;
   position: relative;
-  span{
+  
+  .menu{
     display: none;
     position: absolute;
     left: 30px;
