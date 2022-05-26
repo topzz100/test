@@ -18,6 +18,9 @@ export const TopMenu = styled.div`
     bottom: 0;
     margin: auto;
   }
+  img{
+    width: 100px;
+  }
   @media(max-width: '700px'){
    display: flex;
    width: 100%;
