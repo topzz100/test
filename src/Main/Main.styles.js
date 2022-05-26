@@ -11,7 +11,7 @@ export const Content = styled.div`
   span{
     display: none;
     position: absolute;
-    left: 30px
+    left: 30px;
     top: 15px;
     @media(max-width: 700px){
       display: block;
