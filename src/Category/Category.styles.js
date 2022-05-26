@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
   background-color: white;
-  padding: 20px;
+  padding: 15px;
   width: 100%;
-  height: 270px;
+  height: 280px;
   margin-bottom: 10px;
-  @media(max-width: 700px){
-    height: 310px;
+  @media(max-width: 760px){
+    height: 320px;
   }
 `
 export const Content = styled.div`
