@@ -22,7 +22,7 @@ export const TopMenu = styled.div`
   img{
     width: 100px;
     display: flex;
-    justify-content: center
+    justify-content: center;
   }
   @media(max-width: 700px){
    display: flex;
