@@ -7,10 +7,10 @@ const Main = () => {
     <>
       <Wrapper>
         <Content>
-          <TopMenu>
-            <span>
+          <span>
               <i class="fa-solid fa-bars"></i>
             </span>
+          <TopMenu>
             <img src ="/images/cloudbank.png" alt = ''/>
           </TopMenu>
           <Top>
