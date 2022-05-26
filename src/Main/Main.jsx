@@ -1,5 +1,6 @@
 import React from 'react'
 import Category from '../Category/Category'
+import allCategories from '../allCategories
 import { Box, Categories, Content, Top, TopMenu, Wrapper } from './Main.styles'
 
 const Main = () => {
@@ -21,7 +22,14 @@ const Main = () => {
             </p>
           </Top>
           <Categories>
-           <Box>
+           { 
+             allCategories.map(cat => {
+               return  <Box id={cat.id}>
+                         <Category {...cat}/>
+                       </Box>
+          })
+           }
+          {/* <Box>
              <Category/>
            </Box>
            <Box>
@@ -45,7 +53,7 @@ const Main = () => {
            <Box>
              <Category/>
            </Box> 
-            
+            */}
           </Categories>
         </Content>
       </Wrapper>
