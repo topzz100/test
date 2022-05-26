@@ -4,10 +4,10 @@ export const Wrapper = styled.div`
   background-color: white;
   padding: 15px;
   width: 100%;
-  height: 290px;
+  height: 280px;
   margin-bottom: 10px;
   @media(max-width: 760px){
-    height: 320px;
+    height: 300px;
   }
 `
 export const Content = styled.div`
@@ -25,12 +25,13 @@ export const Image = styled.img`
   }
 `
 export const Text = styled.h5`
-  margin-top: 20px;
-  text-align: center;
-`
-export const Desc = styled.p`
-  margin-top: 20px;
-  color: black;
+  margin-top: 15px;
   text-align: center;
   font-size: 0.9rem;
+`
+export const Desc = styled.p`
+  margin-top: 15px;
+  color: black;
+  text-align: center;
+  font-size: 0.8rem;
 `
