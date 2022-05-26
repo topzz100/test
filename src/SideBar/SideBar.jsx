@@ -28,7 +28,7 @@ const SideBar = () => {
                     Investmen 
                   </span>
                 </ListItem>
-                <ListItem>
+                <ListItem color>
                   <i class="fa-solid fa-credit-card"></i>
                   <span>
                     Loan
