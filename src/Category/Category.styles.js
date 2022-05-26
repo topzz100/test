@@ -4,10 +4,10 @@ export const Wrapper = styled.div`
   background-color: white;
   padding: 20px;
   width: 100%;
-  height: 250px;
+  height: 270px;
   margin-bottom: 10px;
   @media(max-width: 700px){
-    height: 300px;
+    height: 310px;
   }
 `
 export const Content = styled.div`
@@ -29,4 +29,5 @@ export const Desc = styled.p`
   margin-top: 20px;
   color: black;
   text-align: center;
+  font-size: 0.9rem;
 `
