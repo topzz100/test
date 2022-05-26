@@ -21,11 +21,13 @@ export const TopMenu = styled.div`
   }
   img{
     width: 100px;
+    display: flex;
+    justify-content: center
   }
   @media(max-width: 700px){
    display: flex;
    width: 100%;
-   justify-content: center;
+   
   }
 `
 export const Top = styled.div`
