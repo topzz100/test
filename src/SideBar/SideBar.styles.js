@@ -28,7 +28,9 @@ export const List = styled.ul`
 `;
 export const ListItem = styled.li`
   padding: 10px 0;
- 
+  span{
+    margin-left: 10px;
+  }
 `;
 export const LogOut = styled.div`
   display: flex;
@@ -36,6 +38,8 @@ export const LogOut = styled.div`
   overflow: hidden;
   p{
     color: red;
-
+    display: flex;
+    margin-left: 10px;
+   
   }
 `
