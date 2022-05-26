@@ -1,6 +1,6 @@
 import React from 'react'
 import Category from '../Category/Category'
-import allCategories from '../allCategories
+import allCategories from '../allCategories'
 import { Box, Categories, Content, Top, TopMenu, Wrapper } from './Main.styles'
 
 const Main = () => {
