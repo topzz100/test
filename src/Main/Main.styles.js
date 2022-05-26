@@ -13,7 +13,7 @@ export const Content = styled.div`
     display: none;
     position: absolute;
     left: 30px;
-    top: 15px;
+    top: 35px;
     @media(max-width: 700px){
       display: block;
   }
@@ -29,6 +29,7 @@ export const TopMenu = styled.div`
    display: flex;
    width: 100%;
    justify-content: center;
+   margin-bottom: 20px;
   }
 `
 export const Top = styled.div`
