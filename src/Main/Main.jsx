@@ -11,7 +11,7 @@ const Main = () => {
             <span>
               <i class="fa-solid fa-bars"></i>
             </span>
-            <img src ="/images/cloudbank.png"/>
+            <img src ="/images/cloudbank.png" alt = ''/>
           </TopMenu>
           <Top>
             <h4>Loans</h4>
