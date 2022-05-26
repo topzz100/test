@@ -32,7 +32,7 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   padding: 10px;
   width: 100%;
-  background-color: green;
+  background-color : ${props => props.color && '#c1f5c1'};
   span{
     margin-left: 10px;
   }
