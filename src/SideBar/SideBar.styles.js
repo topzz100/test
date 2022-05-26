@@ -4,6 +4,9 @@ export const Wrapper = styled.div`
   flex: 2;
   height: 100vh;
   width: 100%;
+  @media(max-width: 700px){
+    display: none;
+  }
   `;
 
 export const Content = styled.div`
