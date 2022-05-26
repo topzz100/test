@@ -33,6 +33,7 @@ export const ListItem = styled.li`
   padding: 10px;
   width: 100%;
   background-color : ${props => props.color && '#c1f5c1'};
+  border-radius : ${props => props.color && '5px'};
   span{
     margin-left: 10px;
   }
