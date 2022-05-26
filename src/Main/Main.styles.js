@@ -11,6 +11,7 @@ export const Content = styled.div`
 export const TopMenu = styled.div`
   display: none;
   position: relative;
+  width : 100%;
   span{
     position: absolute;
     left: 30px
