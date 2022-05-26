@@ -6,6 +6,9 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 250px;
   margin: 10px;
+  @media(max-width: 700px){
+    height: 200px;
+  }
 `
 export const Content = styled.div`
   width: 100%;
