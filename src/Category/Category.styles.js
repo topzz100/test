@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   background-color: white;
   padding: 15px;
   width: 100%;
-  height: 280px;
+  height: 290px;
   margin-bottom: 10px;
   @media(max-width: 760px){
     height: 320px;
@@ -20,6 +20,9 @@ export const Content = styled.div`
 export const Image = styled.img`
   width: 55%;
   height: 110px;
+  @media(max-width: 760px){
+    height: 100px;
+  }
 `
 export const Text = styled.h5`
   margin-top: 20px;
