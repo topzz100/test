@@ -22,7 +22,7 @@ export const TopMenu = styled.div`
   display: none;
   width : 100%;
   img{
-    width: 100px;
+    width: 50px;
   }
   @media(max-width: 700px){
    display: flex;
@@ -40,7 +40,7 @@ h4{
   }
 `
 export const Categories = styled.div`
-margin-top: 20px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: space-between;
