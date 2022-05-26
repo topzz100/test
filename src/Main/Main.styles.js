@@ -8,6 +8,22 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   padding: 30px;
 `
+export const TopMenu = styled.div`
+  display: none;
+  position: relative;
+  span{
+    position: absolute;
+    left: 30px
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  @media(max-width: '700px'){
+   display: flex;
+   width: 100%;
+   justify-content: center;
+  }
+`
 export const Top = styled.div`
 h4{
   color: black;
