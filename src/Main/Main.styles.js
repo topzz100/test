@@ -13,7 +13,7 @@ export const Content = styled.div`
     display: none;
     position: absolute;
     left: 30px;
-    top: 35px;
+    top: 40px;
     @media(max-width: 700px){
       display: block;
   }
