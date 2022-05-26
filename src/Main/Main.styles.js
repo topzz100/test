@@ -7,22 +7,22 @@ export const Wrapper = styled.div`
 `; 
 export const Content = styled.div`
   padding: 30px;
+  position: relative;
+  span{
+    display: none;
+    position: absolute;
+    left: 30px
+    top: 10px;
+    @media(max-width: 700px){
+      display: block;
+  }
+  }
 `
 export const TopMenu = styled.div`
   display: none;
-  position: relative;
   width : 100%;
-  span{
-    position: absolute;
-    left: 30px
-    top: 0;
-    bottom: 0;
-    margin: auto;
-  }
   img{
     width: 100px;
-    display: flex;
-    justify-content: center;
   }
   @media(max-width: 700px){
    display: flex;
