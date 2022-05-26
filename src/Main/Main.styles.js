@@ -27,7 +27,7 @@ export const TopMenu = styled.div`
   @media(max-width: 700px){
    display: flex;
    width: 100%;
-   
+   justify-content: center;
   }
 `
 export const Top = styled.div`
