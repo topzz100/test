@@ -30,7 +30,9 @@ export const List = styled.ul`
   margin-top: 20px;
 `;
 export const ListItem = styled.li`
-  padding: 10px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: green;
   span{
     margin-left: 10px;
   }
