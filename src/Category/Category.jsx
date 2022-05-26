@@ -1,16 +1,16 @@
 import React from 'react'
 import { Content, Desc, Image, Text, Wrapper } from './Category.styles'
 
-const Category = () => {
+const Category = ({header, img, desc}) => {
   return (
     <Wrapper>
       <Content>
-        <Image src='/images/one.png'/>
+        <Image src={img}/>
         <Text>
-          One month Loan
+          {header}
         </Text>
         <Desc>
-          Access funds for pesonal upkeep for 30 days only
+          {desc}
         </Desc>
       </Content>
     </Wrapper>
