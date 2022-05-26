@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   background-color: white;
   padding: 15px;
   width: 100%;
-  height: 280px;
+  height: 270px;
   margin-bottom: 10px;
   @media(max-width: 760px){
     height: 300px;
