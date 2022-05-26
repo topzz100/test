@@ -7,7 +7,7 @@ const Main = () => {
     <>
       <Wrapper>
         <Content>
-          <span>
+          <span className="menu">
               <i class="fa-solid fa-bars"></i>
             </span>
           <TopMenu>
